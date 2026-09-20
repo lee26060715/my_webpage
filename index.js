@@ -22,7 +22,8 @@ function changePage(page) {
   if (page === "news") {
     content.innerHTML = 
         "<h2>오늘의 뉴스</h2>" +
-    "<p>NAIBURN이 전해드리는 오늘의 funfun한소식입니다.</p>";
+    "<p>NAIBURN이 전해드리는 오늘의 funfun한 소식입니다.</p>" +
+    "<p>오늘은 funfun한 이야기가 없으므로 종료합니다.</p>";
   }
 
   if (page === "shopping") {

@@ -74,3 +74,32 @@ footer {
   margin-top: 50px;
   padding: 20px;
 }
+
+.logo {
+  color: #03c75a;
+}
+
+nav a {
+  color: #03c75a;
+  font-weight: bold;
+}
+
+.content h2 {
+  color: #03c75a;
+}
+
+.sidebar h2 {
+  color: #03c75a;
+}
+
+#searchButton {
+  background-color: #03c75a;
+  color: white;
+  border: none;
+}
+
+.sidebar button {
+  background-color: #03c75a;
+  color: white;
+  border: none;
+}
