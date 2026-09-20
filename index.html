@@ -12,27 +12,52 @@
   <header>
     <h1 class="logo">NAIBURN</h1>
     <div class="search-box">
-  <input type="text" id="searchInput" placeholder="검색어를 입력하세요">
+  <input type="text" id="searchInput" placeholder="검색어를 입력마세요">
   <button id="searchButton">검색</button>
 </div>
   </header>
 
   <nav>
-    <!-- 메일 / 카페 / 블로그 / 쇼핑 / 뉴스 -->
+    <ul>
+      <li><a href="#">메일</a></li>
+      <li><a href="#">카페</a></li>
+      <li><a href="#">블로그</a></li>
+      <li><a href="#">뉴스</a></li>
+      <li><a href="#">쇼핑</a></li>
+    </ul>
   </nav>
 
   <main>
-    <section>
-      <!-- 메인 콘텐츠 -->
-    </section>
+  <section class="content">
+    <h2>오늘의 뉴스</h2>
+    <p>NAIBURN이 전해드리는 오늘의 funfun한소식입니다.</p>
+  </section>
 
-    <aside>
-      <!-- 로그인 / 날씨 같은 사이드 콘텐츠 -->
-    </aside>
-  </main>
+  <aside class="sidebar">
+    <h2>로그인</h2>
+    <input type="text" placeholder="아이디">
+    <input type="password" placeholder="비밀번호">
+    <button>로그인</button>
+    <br />
+
+    <label>남성</label>
+    <input type="radio" name="gender" value="male">
+    
+    <label>여성</label>
+    <input type="radio" name="gender" value="female">
+    
+    <br />
+
+    <label>마법의 성</label>
+      <input type="radio" name="gender" value="castle">
+    
+    <label>아파치 헬리콥터</label>
+      <input type="radio" name="gender" value="My-tooth-hurts-helicopter">
+  </aside>
+</main>
 
   <footer>
-    <!-- NAIBURN 안내 -->
+    <p>© 2026 NAIBURN Corp. 아무 권리도 보유하지 않습니다.</p>
   </footer>
 
 </body>
