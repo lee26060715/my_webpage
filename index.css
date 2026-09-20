@@ -12,8 +12,7 @@ ul {
 
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-   background-color: red;
+  font-family:  Arial, "맑은 고딕", sans-serif;
 }
 
 header {
@@ -74,8 +73,4 @@ footer {
   text-align: center;
   margin-top: 50px;
   padding: 20px;
-}
-
-.box {
-  background-color: red;
 }

@@ -12,20 +12,24 @@
   <header>
     <h1 class="logo">NAIBURN</h1>
     <div class="search-box">
-  <input type="text" id="searchInput" placeholder="검색어를 입력마세요">
-  <button id="searchButton">검색</button>
-</div>
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="검색어를 입력마세요."
+      >
+      <button id="searchButton" onclick="searchRun();">검색</button>
+    </div>
   </header>
 
   <nav>
-    <ul>
-      <li><a href="#">메일</a></li>
-      <li><a href="#">카페</a></li>
-      <li><a href="#">블로그</a></li>
-      <li><a href="#">뉴스</a></li>
-      <li><a href="#">쇼핑</a></li>
-    </ul>
-  </nav>
+  <ul>
+    <li><a href="#" onclick="changePage('mail');">메일</a></li>
+    <li><a href="#" onclick="changePage('cafe');">카페</a></li>
+    <li><a href="#" onclick="changePage('blog');">블로그</a></li>
+    <li><a href="#" onclick="changePage('news');">뉴스</a></li>
+    <li><a href="#" onclick="changePage('shopping');">쇼핑</a></li>
+  </ul>
+</nav>
 
   <main>
   <section class="content">
@@ -37,7 +41,7 @@
     <h2>로그인</h2>
     <input type="text" placeholder="아이디">
     <input type="password" placeholder="비밀번호">
-    <button>로그인</button>
+    <button onclick="login();">로그인</button>
     <br />
 
     <label>남성</label>
